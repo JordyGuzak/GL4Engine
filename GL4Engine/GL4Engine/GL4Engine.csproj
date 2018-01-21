@@ -84,6 +84,7 @@
     <Compile Include="Graphics\Util.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scripts\ArduinoSensor.cs" />
     <Compile Include="Scripts\MouseLook.cs" />
     <Compile Include="Scripts\RotateScript.cs" />
     <Compile Include="TestGame.cs" />

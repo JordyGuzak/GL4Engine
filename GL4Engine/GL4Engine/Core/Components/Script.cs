@@ -9,5 +9,6 @@ namespace GL4Engine.Core
 
         public abstract void Start();
         public abstract void Update();
+        public virtual void OnClose() { }
     }
 }

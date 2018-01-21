@@ -142,6 +142,14 @@ namespace GL4Engine.Core
             scripts.Remove(e.Script);
         }
 
+        private void OnClose()
+        {
+            foreach (Script script in scripts)
+            {
+                script.OnClose();
+            }
+        }
+
         private void Clear()
         {
             scripts.Clear();
@@ -160,6 +168,7 @@ namespace GL4Engine.Core
             if (disposing)
             {
                 UnsubscribeEvents();
+                OnClose();
                 Clear();
             }
         }

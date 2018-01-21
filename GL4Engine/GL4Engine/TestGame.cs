@@ -56,7 +56,7 @@ namespace GL4Engine
             // Load meshes
             Mesh dragon = Resources.Instance.LoadMesh("dragon.obj");
             dragon.Shader = defaultShader;
-            go1.AddComponent(new MeshRenderer(dragon, dragonMaterial)).AddComponent(new RotateScript());
+            go1.AddComponent(new MeshRenderer(dragon, dragonMaterial)).AddComponent(new ArduinoSensor());
             go1.transform.position.Z = -20;
 
             Mesh stall = Resources.Instance.LoadMesh("stall.obj");
