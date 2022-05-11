@@ -1,2 +1,2 @@
 # GL4Engine
-A game-engine written in C# that uses OpenGL4
+A game-engine written in C# using OpenGL4
